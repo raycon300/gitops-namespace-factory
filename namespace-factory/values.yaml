@@ -1,17 +1,18 @@
-
 namespaces:
-  - ms-cobranca-dev
-  - ms-cobranca-hmg
-  - ms-cobranca-prod
+  ms-cobrancas:
+    environments:
+      - name: dev
+        nodeSelector: desenv
+      - name: hml
+        nodeSelector: homol
+      - name: prod
+        nodeSelector: prod
 
-  - ms-boleto-dev
-  - ms-boleto-hmg
-  - ms-boleto-prod
-
-
-
-# Lista de sufixos que serão aplicados como zonas
-#nodeSelectorNS:
-#  - desenv
-#  - homol
-#  - prod
+  ms-boletoes:
+    environments:
+      - name: dev
+        nodeSelector: desenv
+      - name: hml
+        nodeSelector: homol
+      - name: prod
+        nodeSelector: prod
