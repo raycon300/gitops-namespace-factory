@@ -4,6 +4,9 @@ namespaces:
   - ms-cobranca-hmg
   - ms-cobranca-prod
 
+  - ms-boleto-dev
+  - ms-boleto-hmg
+  - ms-boleto-prod
 
 
 
