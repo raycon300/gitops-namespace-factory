@@ -1,12 +1,5 @@
 namespaces:
-  ms-cobrancas:
-    environments:
-      - name: dev
-      - name: hml
-      - name: prod
-
-
-  ms-boletoes:
+  ms-service:
     environments:
       - name: dev
       - name: hml
