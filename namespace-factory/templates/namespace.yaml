@@ -8,9 +8,6 @@ metadata:
   name: {{ $namespace }}-{{ $environment.name }}
   annotations:
     helm.sh/resource-policy: keep
-{{- if $environment.nodeSelector }}
-    openshift.io/node-selector: 'zone={{$environment.nodeSelector}}'
-{{- end}}
   labels:
 {{ include "argocd-applications-manager.defaultLabels" . | indent 4 }}  
 

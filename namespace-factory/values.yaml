@@ -2,17 +2,12 @@ namespaces:
   ms-cobrancas:
     environments:
       - name: dev
-        nodeSelector: desenv
       - name: hml
-        nodeSelector: homol
       - name: prod
-        nodeSelector: prod
+
 
   ms-boletoes:
     environments:
       - name: dev
-        nodeSelector: desenv
       - name: hml
-        nodeSelector: homol
       - name: prod
-        nodeSelector: prod
